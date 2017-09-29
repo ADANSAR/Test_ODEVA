@@ -1,4 +1,7 @@
 language: java
 script:
   - javac TP1_SIR.java
-
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk7
